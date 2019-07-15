@@ -61,4 +61,59 @@ nav #right {
 
 /* Article styles */
 
+main #article-title {
+  text-align: center;
+  font-style: italic;
+  
+
+}
+main #article-title img {
+  width: 100%;
+  margin: auto;
+  max-width: 945px;
+  display: block;
+  margin-bottom: 15px;
+}
+main #article-title #top-img-container {
+  width: 100%;
+  margin: auto;
+  max-width: 945px;
+  text-align: left;
+    
+}
+
+main #article-title #description-img {
+  color: gray;
+  font-size: 15px;
+  
+}
+main #article-title #credits {
+  color: rgb(110, 109, 109);
+  font-size: 12px;
+  text-align: left;
+}
+
+/*main article*/
+main #author-share-date {
+
+}
+
+main #author {
+
+}
+
+main #date {
+
+}
+
+main #social-media {
+
+}
+
+main article {
+width: 100%;
+margin: auto;
+max-width: 600px;
+}
+
 /* Footer styles */
