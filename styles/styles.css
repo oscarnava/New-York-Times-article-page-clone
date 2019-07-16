@@ -64,7 +64,7 @@ nav #right {
 main #article-title {
   text-align: center;
   font-style: italic;
-  
+  margin-bottom: 3em;
 
 }
 main #article-title img {
@@ -79,13 +79,13 @@ main #article-title #top-img-container {
   margin: auto;
   max-width: 945px;
   text-align: left;
-    
+
 }
 
 main #article-title #description-img {
   color: gray;
   font-size: 15px;
-  
+
 }
 main #article-title #credits {
   color: rgb(110, 109, 109);
@@ -94,26 +94,88 @@ main #article-title #credits {
 }
 
 /*main article*/
+
+main article h2 {
+  font-size: 1.3em;
+  padding-bottom: .5em;
+}
+
 main #author-share-date {
 
 }
 
 main #author {
+  margin: 1.2em auto;
+  max-width: 600px;
+}
 
+main #date-social-media {
+  display: flex;
+  margin: 1em auto;
+  max-width: 600px;
+  justify-content: space-between;
 }
 
 main #date {
-
+  display: inline-block;
 }
 
-main #social-media {
+main .social-media {
+  display: inline-block;
+}
 
+main .social-media i {
+  margin: 0px 5px;
+  background-color: lightgray;
+  width: 1em;
+  padding: 5px;
+  border-radius: 50%;
+  border: thin solid lightgray;
+}
+
+main .social-media i:hover {
+  background-color: transparent;
 }
 
 main article {
-width: 100%;
-margin: auto;
-max-width: 600px;
+  width: 100%;
+}
+
+main article p, main article h2, main article img, main #video-insert {
+  margin: auto;
+  max-width: 600px;
+  display: block;
+}
+
+main article p {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+
+main #article-insert .info-bits {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1200px;
+}
+
+main #article-insert .bit {
+  font-size: 12px;
+  width: 23%;
+  padding: 1%;
+}
+
+main #article-insert img {
+  display: block;
+  width: 150px;
 }
 
 /* Footer styles */
