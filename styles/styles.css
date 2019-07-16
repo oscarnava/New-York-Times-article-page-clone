@@ -37,6 +37,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  z-index: 9999;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.22);
 }
 
 nav #left {
@@ -235,6 +243,7 @@ main #article-foot .container {
   display: flex;
   justify-content: flex-end;
   margin: auto;
+  padding-top: 35px;
 }
 
 /* aside styles */
@@ -263,10 +272,12 @@ aside #editors-picks-aside img {
 /* Footer styles */
 
 footer {
+/*
   border: 2px dashed rgba(146, 0, 165, 0.5);
   background-color: rgba(146, 0, 165, 0.15);
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNicgaGVpZ2h0PSc2Jz4KICA8cmVjdCB3aWR0aD0nNicgaGVpZ2h0PSc2JyBmaWxsPScjZWVlZWVlJy8+CiAgPGcgaWQ9J2MnPgogICAgPHJlY3Qgd2lkdGg9JzMnIGhlaWdodD0nMycgZmlsbD0nI2U2ZTZlNicvPgogICAgPHJlY3QgeT0nMScgd2lkdGg9JzMnIGhlaWdodD0nMicgZmlsbD0nI2Q4ZDhkOCcvPgogIDwvZz4KICA8dXNlIHhsaW5rOmhyZWY9JyNjJyB4PSczJyB5PSczJy8+Cjwvc3ZnPg==");
   background-repeat: repeat;
+*/
   text-align: center;
   margin-top: 2em;
 }
@@ -305,7 +316,7 @@ footer #more-news .other-news, .box-picks {
 
 footer #more-news .other-news img, .box-picks img {
   width: 100%;
-  
+
 }
 
 footer #footer-sections-container {
@@ -314,27 +325,27 @@ footer #footer-sections-container {
   text-align: left;
 }
 
-footer .other-news p {
+footer .other-news p, .box-picks p {
   font-size: 10px;
   color: #999999;
-  text-align: right; 
+  text-align: right;
 }
 
-footer .other-news h2 {
+footer .other-news h2, .box-picks h2 {
   font-size: 18px;
   font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 
 }
-footer .other-news date {
+footer .other-news date, .box-picks date {
   font-size: 12px;
   color: #999999;
 }
 
 footer .most-popular .box-most-pop {
-  
+
   border-top: thin solid #999999;
   text-decoration: none;
-  
+
   font-size: 19px;
   padding: .5em 0;
 }
@@ -345,6 +356,24 @@ footer .most-popular .box-most-pop a {
 }
 footer .most-popular .box-most-pop a:hover {
   color: lightslategray;
-  text-decoration: none; 
-  
+  text-decoration: none;
+
+}
+
+footer #subjects {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  font-size: 14px;
+  text-align: left;
+}
+
+footer #subjects::before {
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
 }
