@@ -6,7 +6,7 @@
 */
 
 body {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .blue-btn {
@@ -56,10 +56,13 @@ nav #center {
   width: 190px;
 }
 
-nav #right {
-}
+nav #right {}
 
 /* Article styles */
+
+main {
+  margin: auto;
+}
 
 main #article-title {
   text-align: center;
@@ -67,6 +70,7 @@ main #article-title {
   margin-bottom: 3em;
 
 }
+
 main #article-title img {
   width: 100%;
   margin: auto;
@@ -74,6 +78,7 @@ main #article-title img {
   display: block;
   margin-bottom: 15px;
 }
+
 main #article-title #top-img-container {
   width: 100%;
   margin: auto;
@@ -82,12 +87,13 @@ main #article-title #top-img-container {
 
 }
 
-main .comment{
+main .comment {
   color: gray;
   font-size: 15px;
 
 }
-.credits {
+
+main .credits {
   color: rgb(110, 109, 109);
   font-size: 12px;
   text-align: left;
@@ -100,9 +106,7 @@ main article h2 {
   padding-bottom: .5em;
 }
 
-main #author-share-date {
-
-}
+main #author-share-date {}
 
 main #author {
   margin: 1.2em auto;
@@ -141,14 +145,17 @@ main article {
   width: 100%;
 }
 
-main article p, main article h2, main article img, main #video-insert {
+main article p,
+main article h2,
+main article img,
+main #video-insert {
   margin: auto;
   max-width: 600px;
   display: block;
 }
 
 main article p {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -169,7 +176,7 @@ main #article-insert .info-bits {
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  
+
 }
 
 main #article-insert .bit {
@@ -183,14 +190,16 @@ main #article-insert img {
   width: 150px;
 
 }
+
 main #article-insert .title {
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-weight: bold;
   font-size: 1.25em;
   margin: 1%;
 }
+
 main #article-insert .description {
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-size: .8em;
   font-weight: 400;
   margin: 1%;
@@ -200,31 +209,96 @@ main #article-insert .author {
   margin-top: 25px;
 }
 
+main #article-foot {
+  margin: auto;
+  max-width: 600px;
+  display: block;
+}
+
+main #article-foot .foot-note {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+main #article-foot button {
+  width: 330px;
+  height: 36px;
+  padding: 5px 0;
+}
+
+main #article-foot .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #container-main-aside {
   display: flex;
   justify-content: flex-end;
+  margin: auto;
 }
 
 /* aside styles */
 aside {
+  display: none;
   border: 2px dashed rgba(146, 0, 165, 0.5);
   background-color: rgba(146, 0, 165, 0.15);
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNicgaGVpZ2h0PSc2Jz4KICA8cmVjdCB3aWR0aD0nNicgaGVpZ2h0PSc2JyBmaWxsPScjZWVlZWVlJy8+CiAgPGcgaWQ9J2MnPgogICAgPHJlY3Qgd2lkdGg9JzMnIGhlaWdodD0nMycgZmlsbD0nI2U2ZTZlNicvPgogICAgPHJlY3QgeT0nMScgd2lkdGg9JzMnIGhlaWdodD0nMicgZmlsbD0nI2Q4ZDhkOCcvPgogIDwvZz4KICA8dXNlIHhsaW5rOmhyZWY9JyNjJyB4PSczJyB5PSczJy8+Cjwvc3ZnPg==");
   background-repeat: repeat;
   align-self: center;
   width: 200px;
-  display: none;
 }
 
-aside #sign-up {
+aside #sign-up {}
 
-}
-aside #editors-picks-aside{
+aside #editors-picks-aside {
   display: flex;
   flex-wrap: wrap;
 }
+
 aside #editors-picks-aside img {
   height: 50px;
   height: 50px;
 }
+
 /* Footer styles */
+
+footer {
+  border: 2px dashed rgba(146, 0, 165, 0.5);
+  background-color: rgba(146, 0, 165, 0.15);
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNicgaGVpZ2h0PSc2Jz4KICA8cmVjdCB3aWR0aD0nNicgaGVpZ2h0PSc2JyBmaWxsPScjZWVlZWVlJy8+CiAgPGcgaWQ9J2MnPgogICAgPHJlY3Qgd2lkdGg9JzMnIGhlaWdodD0nMycgZmlsbD0nI2U2ZTZlNicvPgogICAgPHJlY3QgeT0nMScgd2lkdGg9JzMnIGhlaWdodD0nMicgZmlsbD0nI2Q4ZDhkOCcvPgogIDwvZz4KICA8dXNlIHhsaW5rOmhyZWY9JyNjJyB4PSczJyB5PSczJy8+Cjwvc3ZnPg==");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+footer section.more-in-space {
+  max-width: 850px;
+  text-align: left;
+}
+
+footer section.most-popular {
+  max-width: 318px;
+  text-align: left;
+}
+
+footer #more-news {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+footer #more-news .other-news {
+/*  max-width: 300px;*/
+  flex-basis: 33%;
+  text-align: left;
+}
+
+footer #more-news .other-news img {
+  width: 90%;
+  margin: auto;
+}
+
+footer #footer-sections-container {
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: left;
+}
