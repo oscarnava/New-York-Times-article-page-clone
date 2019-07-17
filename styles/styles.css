@@ -13,11 +13,13 @@ body {
   border: 1px solid #326891;
   background-color: rgb(98, 136, 165);
   color: white;
-  font-size: .7em;
+  font-size: 10.3px;
   font-weight: bold;
-  padding: 5px 8px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  padding: 8.5px 12.5px 5.5px;
   text-transform: uppercase;
   border-radius: 3px;
+  margin-left: 2px;
 }
 
 a {
@@ -41,6 +43,7 @@ nav {
   position: fixed;
   left: 0px;
   top: 0px;
+  
   width: 100%;
   height: 35px;
   background-color: white;
@@ -63,9 +66,12 @@ nav #left #section {
 
 nav #center {
   width: 190px;
+  margin-top: auto;
 }
 
-nav #right {}
+nav #right {
+  margin-right: 1.2em;
+}
 
 /* Article styles */
 
