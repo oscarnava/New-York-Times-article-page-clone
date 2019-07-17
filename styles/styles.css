@@ -371,6 +371,7 @@ footer #subjects {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  max-width: 1168px;
   margin: auto;
   font-size: 12px;
   text-align: left;
