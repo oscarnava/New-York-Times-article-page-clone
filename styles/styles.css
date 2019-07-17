@@ -14,7 +14,7 @@ body {
   background-color: rgb(98, 136, 165);
   color: white;
   font-size: 10.3px;
-  font-weight: bold;
+  font-weight: bold;a
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   padding: 8.5px 12.5px 5.5px;
   text-transform: uppercase;
@@ -347,8 +347,8 @@ footer .other-news h2,
 
 }
 
-footer .other-news date,
-.box-picks date {
+footer .other-news #date-news,
+.box-picks #date-news {
   font-size: 12px;
   color: #999999;
 }
