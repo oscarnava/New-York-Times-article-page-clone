@@ -362,18 +362,55 @@ footer .most-popular .box-most-pop a:hover {
 
 footer #subjects {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(182, 182, 182);
+  flex-wrap: wrap;
+  padding-bottom: 15px; 
 }
 
-footer #subjects::before {
-    content: "";
-    display: block;
-    height: 3px;
-    margin-top: 0px;
-    border-bottom: 1px solid rgb(226, 226, 226);
-    border-top: 2px solid rgb(226, 226, 226);
+footer #subjects .titles-subjects {
+  
+  flex-basis: 100%;
+  margin-top: 15px;
+
+}
+footer #subjects .titles-subjects img {
+  width: 184px;
+}
+
+footer #subjects p {
+  font-weight: bold;
+}
+footer #subjects #suscribe-section {
+  border-left: thin solid #999999;
+  padding-left: 20px;
+ 
+}
+
+footer #subjects #suscribe-section .a-icons a{
+  font-weight: bold;
+  color: #121212
+}
+
+footer #contact-info a {
+  color: #999999;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  margin: .5em;
+}
+footer #login p {
+  font-size: 15px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin: 1em auto;
+  color: #121212
+
+}
+footer #login {
+  border-top: thin solid black;
+
 }
