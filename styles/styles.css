@@ -283,12 +283,6 @@ aside #editors-picks-aside img {
 /* Footer styles */
 
 footer {
-/*
-  border: 2px dashed rgba(146, 0, 165, 0.5);
-  background-color: rgba(146, 0, 165, 0.15);
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNicgaGVpZ2h0PSc2Jz4KICA8cmVjdCB3aWR0aD0nNicgaGVpZ2h0PSc2JyBmaWxsPScjZWVlZWVlJy8+CiAgPGcgaWQ9J2MnPgogICAgPHJlY3Qgd2lkdGg9JzMnIGhlaWdodD0nMycgZmlsbD0nI2U2ZTZlNicvPgogICAgPHJlY3QgeT0nMScgd2lkdGg9JzMnIGhlaWdodD0nMicgZmlsbD0nI2Q4ZDhkOCcvPgogIDwvZz4KICA8dXNlIHhsaW5rOmhyZWY9JyNjJyB4PSczJyB5PSczJy8+Cjwvc3ZnPg==");
-  background-repeat: repeat;
-*/
   text-align: center;
   margin-top: 2em;
 }
@@ -311,21 +305,24 @@ footer section.most-popular {
 
 }
 
-footer #more-news, #editors-picks {
+footer #more-news,
+#editors-picks {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
 }
 
-footer #more-news .other-news, .box-picks {
-/*  max-width: 300px;*/
+footer #more-news .other-news,
+.box-picks {
+  /*  max-width: 300px;*/
   flex-basis: 30%;
   text-align: left;
   margin: 10px;
 
 }
 
-footer #more-news .other-news img, .box-picks img {
+footer #more-news .other-news img,
+.box-picks img {
   width: 100%;
 
 }
@@ -336,18 +333,22 @@ footer #footer-sections-container {
   text-align: left;
 }
 
-footer .other-news p, .box-picks p {
+footer .other-news p,
+.box-picks p {
   font-size: 10px;
   color: #999999;
   text-align: right;
 }
 
-footer .other-news h2, .box-picks h2 {
+footer .other-news h2,
+.box-picks h2 {
   font-size: 18px;
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 
 }
-footer .other-news date, .box-picks date {
+
+footer .other-news date,
+.box-picks date {
   font-size: 12px;
   color: #999999;
 }
@@ -363,8 +364,9 @@ footer .most-popular .box-most-pop {
 
 footer .most-popular .box-most-pop a {
   color: #121212;
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
+
 footer .most-popular .box-most-pop a:hover {
   color: lightslategray;
   text-decoration: none;
@@ -395,6 +397,7 @@ footer #subjects .titles-subjects {
   margin-top: 15px;
 
 }
+
 footer #subjects .titles-subjects img {
   width: 184px;
 }
@@ -439,6 +442,7 @@ footer #contact-info a {
   font-size: 11px;
   margin: .5em;
 }
+
 footer #login p {
   font-size: 15px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
