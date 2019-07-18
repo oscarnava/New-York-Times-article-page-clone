@@ -41,11 +41,10 @@
         <div id="top-img-container">
           <figure>
             <img src="img/science-guy.jpg" alt="Science guy">
-            <figcaption>
-              <span class="comment">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
-              <span class="credits">Rick Friedman for The New York Times</span>
-            </figcaption>
+            <figcaption>Science guy</figcaption>
           </figure>
+          <span class="comment">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
+          <span class="credits">Rick Friedman for The New York Times</span>
         </div>
       </div>
       <div id="author-share-date">
@@ -112,66 +111,50 @@
           <div class="info-bits">
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-1.png" alt="Figure 1. The universe illustration">
-                <figcaption>
-                  THE UNIVERSE is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
-                </figcaption>
+                <img class="figure" src="img/inflation-1.png" alt="Figure 1. The universe illustration">THE UNIVERSE is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
+                <figcaption>Figure 1. The universe illustration</figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-2.png" alt="Figure 2. Not enough time illustration">
-                <figcaption>
-                  NOT ENOUGH TIME The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
-                </figcaption>
+                <img class="figure" src="img/inflation-2.png" alt="Figure 2. Not enough time illustration">NOT ENOUGH TIME The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
+                <figcaption>Figure 2. Not enough time illustration</figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-3.png" alt="Figure 3. Distant cofee illustration">
-                <figcaption>
-                  DISTANT COFFEE At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
-                </figcaption>
+                <img class="figure" src="img/inflation-3.png" alt="Figure 3. Distant cofee illustration">DISTANT COFFEE At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
+                <figcaption>Figure 3. Distant cofee illustration</figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-4.png" alt="Figure 4. Coffee everywhere illustration">
-                <figcaption>
-                  COFFEE EVERYWHERE Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation
-                </figcaption>
+                <img class="figure" src="img/inflation-4.png" alt="Figure 4. Coffee everywhere illustration">COFFEE EVERYWHERE Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation
+                <figcaption>Figure 4. Coffee everywhere illustration</figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-5.png" alt="Figure 5. Still not enough time illustration">
-                <figcaption>
-                  STILL NOT ENOUGH TIME There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
-                </figcaption>
+                <img class="figure" src="img/inflation-5.png" alt="Figure 5. Still not enough time illustration">STILL NOT ENOUGH TIME There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
+                <figcaption>Figure 5. Still not enough time illustration</figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-6.png" alt="Figure 6. Inflation illustration">
-                <figcaption>
-                  INFLATION solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
-                </figcaption>
+                <img class="figure" src="img/inflation-6.png" alt="Figure 6. Inflation illustration">INFLATION solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
+                <figcaption></figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-7.png" alt="Figure 7. Fluctuation illustration">
-                <figcaption>
-                  FLUCTUATION Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
-                </figcaption>
+                <img class="figure" src="img/inflation-7.png" alt="Figure 7. Fluctuation illustration">FLUCTUATION Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
+                <figcaption>Figure 7. Fluctuation illustration</figcaption>
               </figure>
             </div>
             <div class="bit">
               <figure>
-                <img class="figure" src="img/inflation-8.png" alt="Figure 8. Expansion illustrationFigure 1. ">
-                <figcaption>
-                  EXPANSION Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
-                </figcaption>
+                <img class="figure" src="img/inflation-8.png" alt="Figure 8. Expansion illustrationFigure 1. ">EXPANSION Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
+                <figcaption>Figure 8. Expansion illustrationFigure 1.</figcaption>
               </figure>
             </div>
           </div>
@@ -185,13 +168,13 @@
           <p>“It was a very special moment, and one we took very seriously as scientists,” said Dr. Kovac, who chose his words as carefully as he tended his radio telescopes.</p>
           <p>Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, knocked on his door with a bottle of Champagne to tell him the news.</p>
         </section>
-
-        <figure id="video-insert">
+        <div id="video-insert">
+          <figure>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption>
-              <p class="comment">Stanford Professor Andrei Linde celebrates physics breakthrough</p>
-            </figcaption>
-        </figure>
+            <p class="comment">Stanford Professor Andrei Linde celebrates physics breakthrough</p>
+            <figcaption>informative video</figcaption>
+          </figure>
+        </div>
 
         <section>
           <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
@@ -354,30 +337,24 @@
             <h2 class="title-footer">Editors’ Picks</h2>
           </a>
           <div id="editors-picks">
-          <figure class="box-picks">
+          <div class="box-picks">
               <img src="img/bob-ross-cover.png" alt="bob">
-              <figcaption>
                 <p>Kaleb Marshall for The New York Times</p>
                 <h2>What if Being a YouTube Celebrity Is Actually Backbreaking Work?</h2>
-              </figcaption>
             <div class="date-news">July 9</div>
-          </figure>
-          <figure class="box-picks">
+          </div>
+          <div class="box-picks">
               <img src="img/merlin.jpg" alt="merlin">
-              <figcaption>
-                <p>Workman Publishing</p>
-                <h2>Buying Lattes Is Not Keeping You From Being Rich</h2>
-              </figcaption>
+              <p>Workman Publishing</p>
+              <h2>Buying Lattes Is Not Keeping You From Being Rich</h2>
             <div class="date-news">July 12</div>
-          </figure>
-          <figure class="box-picks">
+          </div>
+          <div class="box-picks">
               <img src="img/snapshot.jpg" alt="snapshot">
-              <figcaption>
-                <p>Rozette Rago for The New York Times</p>
-                <h2>Gina Torres on ‘Suits,’ Meghan Markle and ‘Pearson’</h2>
-              </figcaption>
+              <p>Rozette Rago for The New York Times</p>
+              <h2>Gina Torres on ‘Suits,’ Meghan Markle and ‘Pearson’</h2>
             <div class="date-news">July 12</div>
-          </figure>
+          </div>
         </div>
 
       </section>
