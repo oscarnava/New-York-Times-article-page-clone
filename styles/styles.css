@@ -456,3 +456,7 @@ footer #login {
   border-top: thin solid black;
 
 }
+
+footer #bold {
+  font-weight: bold;
+}
