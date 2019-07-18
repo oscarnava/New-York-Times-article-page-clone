@@ -393,11 +393,15 @@ footer #subjects .menu-option {
   margin-bottom: 3px;
 }
 
-footer #subjects .titles-subjects {
+footer #subjects #jump-home {
+  display: inline-block;
+  float: right;
+  color: #6228a5;
+}
 
+footer #subjects .titles-subjects {
   flex-basis: 100%;
   margin-top: 15px;
-
 }
 
 footer #subjects .titles-subjects img {
