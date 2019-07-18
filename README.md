@@ -7,3 +7,4 @@ It was developed by Nico and Oscar (the dream team) using basic html tags, and C
 It's a functional copy of the site [New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0). Not every function was
 repicated, but we tried to replicate the structure, the look&feel and validation of the
 original site.
+
