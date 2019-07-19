@@ -8,3 +8,4 @@ It's a functional copy of the site [New York Times](https://www.nytimes.com/2014
 repicated, but we tried to replicate the structure, the look&feel and validation of the
 original site.
 
+* [live preview here](https://nicolasmarino99.github.io/New-York-Times-article-page-clone/)
